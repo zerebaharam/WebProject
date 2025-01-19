@@ -1,0 +1,94 @@
+footer {
+    width: 100%;
+    padding: 23px 0;
+    background: #d4e8d9;
+}
+footer .container {
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: flex-start;
+}
+footer .container aside:nth-child(1) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
+}
+footer .container aside:nth-child(1) .footer_logo {
+    display: flex;
+    flex-direction: column;
+    margin-right: 115px;
+}
+footer .container aside:nth-child(1) .footer_logo img {
+    margin-bottom: 35px;
+}
+footer .container aside:nth-child(1) .footer_logo a:nth-child(2) {
+    color: #2c2d35;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+}
+footer .container aside:nth-child(1) .footer_logo a:nth-child(2) span {
+    color: #86928b;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    display: inline-block;
+    margin-top: 8px;
+}
+footer .container aside:nth-child(1) .footer_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: flex-start;
+}
+footer .container aside:nth-child(1) .footer_menu ul {
+    margin-right: 60px;
+}
+footer .container aside:nth-child(1) .footer_menu ul:last-child {
+    margin-right: 0;
+}
+footer .container aside:nth-child(1) .footer_menu ul li {
+    margin-bottom: 8px;
+}
+footer .container aside:nth-child(1) .footer_menu ul li:nth-child(1) {
+    color: #2c2d35;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+}
+footer .container aside:nth-child(1) .footer_menu ul li:last-child {
+    margin-bottom: 0;
+}
+footer .container aside:nth-child(1) .footer_menu ul li a {
+    color: #86928b;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    transition: 0.4s;
+}
+footer .container aside:nth-child(1) .footer_menu ul li a:hover {
+    color: #2c2d35;
+}
+footer .container aside:nth-child(2) .socials {
+    width: 132px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+footer .container aside:nth-child(2) .socials a {
+    transition: 0.4s;
+}
+footer .container aside:nth-child(2) .socials a:hover {
+    transform: scale(1.1);
+}
+footer .container aside:nth-child(2) p {
+    color: #86928b;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 170%;
+}

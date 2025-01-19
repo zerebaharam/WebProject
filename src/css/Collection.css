@@ -1,0 +1,57 @@
+.new_collection {
+    padding: 70px 0;
+    background: url(../img/collection_bg.png) no-repeat center/cover;
+    background-attachment: fixed;
+}
+.new_collection .container {
+    width: 1110px;
+    margin: 0 auto;
+}
+.new_collection .container article {
+    width: 540px;
+}
+.new_collection .container article div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.new_collection .container article div img {
+    margin-right: 20px;
+}
+.new_collection .container article div h2 {
+    color: #2c2d35;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 110%;
+    color: #ffffff;
+}
+.new_collection .container article p {
+    color: #86928b;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #ffffff;
+}
+.new_collection .container article .first {
+    margin-bottom: 20px;
+}
+.new_collection .container article .last {
+    margin-bottom: 60px;
+}
+.new_collection .container article a button {
+    color: #598d66;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    padding: 20px 60px;
+    border: 1px solid #598d66;
+    background: none;
+    transition: 0.3s;
+    background: #eedb6d;
+    border: none;
+    color: #2c2d35;
+}
+.new_collection .container article a button:hover {
+    background: #d9b949;
+}
