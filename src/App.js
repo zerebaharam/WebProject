@@ -1,9 +1,10 @@
 import MainBlock from './components/MainBlock';
 import Pictures from './components/Pictures';
 import Collection from './components/Collection';
-import SellPictures from './components/SellPictures';
+import AllPictures from './components/AllPictures';
 import Ourteam from './components/Ourteam';
-import Footer from './components/Footer';
+import Footer from './components/Footer'
+
 import './css/Reset.css';
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
     <>
       <MainBlock />
       <Pictures />
-      <SellPictures />
+      <AllPictures />
       <Collection />
       <Ourteam />
       <Footer />
