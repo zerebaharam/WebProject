@@ -9,4 +9,4 @@ function Pictures(){
     </section>
     )
 }
-export default Pictures
+export default Pictures;

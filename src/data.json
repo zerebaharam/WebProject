@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "img": "picture1.jpeg",
+        "img": "../public/image1.jpeg",
         "author": "Марсель Руссо",
         "name": "Охота Амура",
         "desc": "Холст, масло (50х80)",
@@ -9,7 +9,7 @@
     },
     {
         "id": 2,
-        "img": "picture2.jpeg",
+        "img": "../public/image2.jpeg",
         "author": "Анри Селин",
         "name": "Дама с собачкой",
         "desc": "Акрил, бумага (50х80) ",
@@ -17,7 +17,7 @@
     },
     {
         "id": 3,
-        "img": "picture3.jpeg",
+        "img": "../public/image3.jpeg",
         "author": "Франсуа Дюпон",
         "name": "Процедура",
         "desc": "Цветная литография (40х60)",
